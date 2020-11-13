@@ -1,0 +1,13 @@
+{
+    "name": "Subham Mahapatra",
+    "short name": "Subham",
+    "start-url": ".",
+    "background-color": "#fff",
+    "description": "Portfolio Application",
+    "icons": [
+        {
+            "src": "images/download.jpg",
+            "type": "image/jpg"
+        }
+    ]
+}

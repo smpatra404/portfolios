@@ -1,0 +1,75 @@
+:root{
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+    --borderColor: #c1c1c1;
+    --mainText: black;
+    --secondaryText: #4b5156;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px black; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(73, 73, 73); 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #17a2b8;
+    font-size: 18px;    
+}
+
+h1, h2, h3, h4, h4, h5, h6, strong{
+    color: var(--mainText);
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1{font-size: 56px}
+h2{font-size: 36px}
+h3{font-size: 28px}
+h4{font-size: 24px}
+h5{font-size: 20px}
+h6{font-size: 16px}
+
+p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Overpass', sans-serif;
+    text-align: justify;
+    margin-right: 15%;
+}
+
+.s1{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: hidden;
+}
+
+.s2{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: hidden;
+}
